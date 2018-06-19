@@ -12,6 +12,7 @@ class Anagram
     list.each do |x|
       if x.split("").sort = wordArr
         @final << x
+      emd
     end
 
   end
