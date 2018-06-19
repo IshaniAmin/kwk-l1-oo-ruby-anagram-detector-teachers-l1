@@ -7,7 +7,7 @@ class Anagram
   end
 
   def match(list)
-    wordArr = word.split("").sort
+    wordArr = @word.split("").sort
 
     list.each do |x|
       if x.split("").sort == wordArr
