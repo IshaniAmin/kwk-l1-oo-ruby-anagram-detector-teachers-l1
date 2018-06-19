@@ -7,6 +7,7 @@ class Anagram
   end
 
   def match(list)
+    wordArr = 
   end
 
 end
