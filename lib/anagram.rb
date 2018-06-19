@@ -16,7 +16,7 @@ class Anagram
         @final << x
       end
     end
-
+    @final
   end
 
 end
