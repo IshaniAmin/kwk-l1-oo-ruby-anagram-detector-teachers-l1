@@ -8,6 +8,11 @@ class Anagram
 
   def match(list)
     wordArr = word.split("").sort
+
+    list.each do |x|
+      puts x 
+    end
+    
   end
 
 end
