@@ -10,9 +10,9 @@ class Anagram
     wordArr = word.split("").sort
 
     list.each do |x|
-      puts x 
+      if x.split("").sort = wordArr
     end
-    
+
   end
 
 end
