@@ -11,7 +11,8 @@ class Anagram
     wordArr = @word.split("").sort
 
     list.each do |x|
-      if x.split("").sort == wordArr
+      spl = x.split("").sort
+      if spl == wordArr
         @final << x
       end
     end
