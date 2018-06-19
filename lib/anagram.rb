@@ -7,7 +7,7 @@ class Anagram
   end
 
   def match(list)
-    wordArr = word.split("")
+    wordArr = word.split("").sort
   end
 
 end
