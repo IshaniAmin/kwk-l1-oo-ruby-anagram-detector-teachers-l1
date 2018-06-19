@@ -1,6 +1,6 @@
 class Anagram
 
-  attr_accessor :word
+  attr_accessor :word, :final
 
   def initialize(word)
     @word = word
@@ -11,6 +11,7 @@ class Anagram
 
     list.each do |x|
       if x.split("").sort = wordArr
+
     end
 
   end
